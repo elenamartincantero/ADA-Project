@@ -1,0 +1,99 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV SPARK_05
+
+U ex05%b		ex05.adb		0c03772e NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W pkg_tarea%s		pkg_tarea.adb		pkg_tarea.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-calend.ads		20200312110721 b288ede8 ada.calendar%s
+D a-caldel.ads		20200312110721 9f20b83d ada.calendar.delays%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-inteio.ads		20200312110721 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200312110721 0240fc73 ada.real_time%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-taside.ads		20200312110721 c3e0cda8 ada.task_identification%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D ex05.adb		20210516201408 95893ca8 ex05%b
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-c.ads		20200312110721 5421119b interfaces.c%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D pkg_tarea.ads		20210516201745 4c33f6c9 pkg_tarea%s
+D system.ads		20200312110721 4635ec04 system%s
+D s-atacco.ads		20200312110721 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-linux.ads		20200312110721 ed0b8aee system.linux%s
+D s-multip.ads		20200312110721 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200808120453 0b994636 system.os_constants%s
+D s-osinte.ads		20200312110721 710cf8c6 system.os_interface%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200312110721 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200312110721 2b3f8252 system.task_info%s
+D s-taspri.ads		20200312110721 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200312110721 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20200312110721 b9d612e2 system.tasking%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+D text_io.ads		20200312110721 21b2c898 text_io%s
+X 1 ada.ads
+16K9*Ada 20e8 14|3r6 3r25 4r6 4r31 23r32
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 14|4w10 4r35 23r36
+X 7 a-reatim.ads
+39K13*Real_Time 185e18 14|3w10 3r29
+49O9*Time<duration> 14|9r12
+54O9*Time_Span<duration>
+61V13*Clock{49O9} 14|13s13 26s34
+65V14*"+"{49O9} 14|24s22
+71V14*"-"{54O9} 14|26s32
+110V13*To_Duration{duration} 14|26s15
+119V13*Milliseconds{54O9} 14|24s24
+X 11 a-textio.ads
+166U14*New_Line 14|23s99
+242U14*Put 14|23s17 23s72
+X 12 a-tiinio.ads
+66U14*Put 14|23s52[5|18]
+X 14 ex05.adb
+5U11*ex05 5b11 30l5 30t9
+6I13 sw{integer} 7r13
+7i5 frame{6I13} 11m5 15m9 15r19 16r14 23r56
+8i5 nFrame{integer} 12m5 15r29
+9o5 next{7|49O9} 13m5 24m9 24r17 26r27
+X 18 pkg_tarea.ads
+6K9*pkg_tarea 14|2w6 2r21 18|12e14
+7U19*startTaskA 14|18s23 19s23 20s23 21s23
+8U15*startTaskB 14|18s35 19s35 20s35 21s35
+9U15*startTaskC 14|18s47 20s47
+10U15*startTaskD 14|19s47 21s47
+11U15*startTaskE 14|19s59
+X 32 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 42 text_io.ads
+24K9*Text_IO=24:29 14|1w6 1r19 23r9 23r64 23r91
+
